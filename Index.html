@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script></script>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="scope.css" />
+  </head>
+  <body>
+    <img class="img-peace" src="peace.webp" alt="Peace" />
+    <h1>Survey Form</h1>
+      <div class="form-control">
+        <label for="name" id="label-name"> Name </label>
+        <input type="text" id="name" placeholder="Enter your name" />
+      </div>
+
+      <div class="form-control">
+        <label for="email" id="label-name"> Email </label>
+        <input type="text" id="email" placeholder="Enter your Email" />
+      </div>
+      <div class="form-control">
+        <label for="age" id="label-name"> Age </label>
+        <input type="text" id="age" placeholder="Enter your Age" />
+      </div>
+      <!-- Optins to select-->
+      <div class="form-control">
+        <label for="role" id="label-role">
+          Which optins best describe you?
+        </label>
+        <select name="role" id="role">
+          <option value="student">Student</option>
+          <option value="intern">Intern</option>
+          <option value="professinal">Professional</option>
+          <option value="other">Others</option>
+        </select>
+      </div>
+      <div class="form-control">
+        <label> Is it difficult to understand? </label>
+        <!-- Rdio type-->
+        <label for="recommend-1">
+          <input type="radio" id="recommend-1" name="recommend" />Yes
+        </label>
+        <label for="recommend-2">
+          <input type="radio" id="recommend-2" name="recommend" />No
+        </label>
+        <label for="recommend-1">
+          <input type="radio" id="recommend-3" name="recommend" />Maybe
+        </label>
+      </div>
+      <div class="form-control">
+        <label
+          >Language and Frameworks known
+          <small>(Check all the apply)</small>
+        </label>
+        <!--ChecBox Type-->
+        <label for="inp-1"> <input type="checkbox" name="inp" />C </label>
+        <label for="inp-1"> <input type="checkbox" name="inp" />C++ </label>
+        <label for="inp-1"> <input type="checkbox" name="inp" />C# </label>
+        <label for="inp-1">
+          <input type="checkbox" name="inp" />JavaScript
+        </label>
+        <label for="inp-1"> <input type="checkbox" name="inp" />Jango </label>
+        <label for="inp-1"> <input type="checkbox" name="inp" />Python </label>
+        <label for="inp-1"> <input type="checkbox" name="inp" />React </label>
+        <label for="inp-1"> <input type="checkbox" name="inp" />NodeJs </label>
+      </div>
+      <div class="form-control">
+        <label for="comment"> Any comments or suggestions </label>
+        <!--multiline text input control-->
+        <textarea
+          name="comment"
+          id="comment"
+          placeholder="Enter your comment here"
+        ></textarea>
+      </div>
+      <button id="btn1" onclick="handleSubmit(event)" value="submit">
+        Submit
+      </button>
+      <h2 class="head-2">Submitted Data</h2>
+      <table id="data-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th> 
+            
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          
+        </tbody>
+      </table>
+    <a href="https://www.youtube.com/">How to fill the form</a>
+    <script src="script.js"></script>
+  </body>
+</html>
