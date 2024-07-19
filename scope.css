@@ -4,7 +4,7 @@ body{
     background-color: #5bbd91;
     text-align: center;
 }
-form{
+#wholeSec{
    background-color: hsl(0, 0%, 100%);
    max-width: 500px;
    margin: 50px auto;
@@ -41,7 +41,7 @@ form{
     font-family: inherit;
     font-size: 21px;
     display: block;
-    margin-left: 240px;
+    margin-left: 185px;
     width: 20%;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -52,13 +52,16 @@ form{
     margin-top: 40px;
     margin-right: 40px;
 }
+#data-table{
+    margin-left: 50px;
+}
 table,td,th{
     border: 1px solid black;
 }
 .img-peace{
     margin-left: 5px;
-    width: 540px;
-    height: 140px;
-    margin-top: 30px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
 }
