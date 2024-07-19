@@ -1,4 +1,3 @@
-//getItem is used to get data from storage and jason.parse is for convert string into objects
 let myArr = localStorage.getItem("record");
 let records = myArr ? JSON.parse(myArr) : [];
 
@@ -10,7 +9,7 @@ generateTable();
 function handleSubmit(event) {
   event.preventDefault();
 
-  // form data
+  
   const name = document.getElementById("name").value;
   const email = document.getElementById("email").value;
   const age = document.getElementById("age").value;

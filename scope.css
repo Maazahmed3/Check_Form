@@ -41,12 +41,13 @@ body{
     font-family: inherit;
     font-size: 21px;
     display: block;
-    margin-left: 185px;
-    width: 20%;
+    margin-left: 160px;
+    height: 40px;
+    width: 30%;
     margin-top: 50px;
     margin-bottom: 20px;
     cursor: pointer;
-    
+    color: white;
 }
 .head-2{
     margin-top: 40px;
