@@ -45,7 +45,7 @@ function handleSubmit(event) {
   document.getElementById("role").value = "";
   document.getElementById("comment").value = "";
 
-  console.log("Name:", name);
+  console.log("Name:", name); 
   console.log("Email:", email);
   console.log("Age:", age);
   console.log("Role:", role);
